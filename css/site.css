@@ -1,12 +1,13 @@
 body {
   background-color: #edbe77;
   color: #705020;
+  font-family: 'Amatic SC', cursive, Georgia, serif;
 }
 
 /* Add backup fonts */
 a {
   color: #705020;
-  font-family: 'Amatic SC', cursive;
+  
   font-size: 35px;
   
 }
@@ -17,4 +18,10 @@ a:hover {
   border-right: 3px solid #705020;
   padding-right: 13px;
   
+}
+
+.body-header {
+    text-align: center;
+    float: none;
+    
 }
