@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+      integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="/css/contact.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Coming+Soon&family=Patua+One&display=swap"
+      rel="stylesheet"
+    />
+
+    <title>Rowan's Creations</title>
+  </head>
+  <body>
+      
+    <header>
+      <a href="/"> Rowan's Creations </a>
+    </header>
+    <main>
+    <nav class="navbar navbar-expand-md bg-dark">
+      <a class="navbar-brand" href="#"></a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mx-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="/"
+              >Home <span class="sr-only">(current)</span></a
+            >
+          </li>
+
+          <li class="nav-item dropdown">
+            <a
+              class="nav-link"
+              href="#"
+              id="navbarDropdown"
+              role="button"
+              data-toggle="dropdown"
+              aria-haspopup="true"
+              aria-expanded="false"
+            >
+              Portfolio
+            </a>
+            <div
+              class="dropdown-menu"
+              aria-labelledby="navbarDropdown"
+              style="background-color: #6bab90"
+            >
+              <a class="dropdown-item" href="projects.html">Projects</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="archive.html">Archive</a>
+            </div>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="CV Oct 2020.pdf">Resume</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contact.html">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <div class="row mt-4 justify-content-center">
+        <h1>Get In Touch!</h1>
+    </div>
+    <div class="row justify-content-center">
+        <h3>Project propositions, collaborations, and more! Feel free to reach out!</h3>
+    </div>
+
+    <div class="container">
+    <form class="needs-validation" method="POST" action="https://formspree.io/f/xdopzpda" novalidate>
+        <div class="form-row justify-content-center">
+          <div class="col-md-4 mb-4 mt-4">
+            <label for="validationCustom01">First name</label>
+            <input type="text" class="form-control" id="validationCustom01" placeholder="First name" value="First name" required>
+            <div class="valid-feedback">
+              Looks good!
+            </div>
+          </div>
+          <div class="col-md-4 mb-4 mt-4">
+            <label for="validationCustom02">Last name</label>
+            <input type="text" class="form-control" id="validationCustom02" placeholder="Last name" value="Otto" required>
+            <div class="valid-feedback">
+              Looks good!
+            </div>
+          </div>
+        </div> 
+        <div class="form-row justify-content-center">
+          <div class="col-md-4 mb-3">
+            <label for="validationCustom04">Email</label>
+            <input type="text" class="form-control" id="validationCustom04" placeholder="Email" required>
+            <div class="invalid-feedback">
+              Please provide a valid email.
+            </div>
+          </div>
+          <div class="col-md-4 mb-3">
+            <label for="validationCustom05">Phone</label>
+            <input type="text" class="form-control" id="validationCustom05" placeholder="Phone" required>
+            <div class="invalid-feedback">
+              Please provide a valid phone.
+            </div>
+          </div>
+        </div>
+        <div class="row justify-content-center">
+                <div class="custom-control custom-radio ml-4">
+                    <input type="radio" id="customRadio1" name="customRadio" class="custom-control-input">
+                    <label class="custom-control-label" for="customRadio1">I prefer to recieve an email</label>
+                  </div>
+                  <div class="custom-control custom-radio ml-4">
+                    <input type="radio" id="customRadio2" name="customRadio" class="custom-control-input">
+                    <label class="custom-control-label" for="customRadio2">I prefer to recieve a call</label>
+                  </div>
+                  <div class="custom-control custom-radio ml-4">
+                    <input type="radio" id="customRadio3" name="customRadio" class="custom-control-input">
+                    <label class="custom-control-label" for="customRadio3">I prefer to recieve a text</label>
+                  </div>
+                </div>
+            </div>
+        <div class="container">
+        <div class="form-row">
+            <div class="col-md-12 mb-3">
+                <label for="validationCustom03">Message</label>
+                <input type="text" class="form-control" id="validationCustom03" placeholder="Message" required>
+                <div class="invalid-feedback">
+                  Please provide a message.
+                </div>
+              </div>
+        </div>
+    </div>
+    <div class="container mb-4 mt-4">
+        <div class="row justify-content-center">
+        <button class="btn btn-dark" type="submit">Submit form</button>
+    </div>
+    </div>
+      </form>
+      <form
+      action="https://formspree.io/f/xdopzpda"
+      method="POST"
+    >
+      <label>
+        Your email:
+        <input type="text" name="_replyto" required>
+      </label>
+      <label>
+        Your message:
+        <textarea name="message"></textarea>
+      </label>
+    
+      <!-- your other form fields go here -->
+    
+      <button type="submit">Send</button>
+    </form>
+</main>
+          <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script
+    src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+    integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+    crossorigin="anonymous"
+  ></script>
+  <script
+    src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+    crossorigin="anonymous"
+  ></script>
+  <script
+    src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+    integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+    crossorigin="anonymous"
+  ></script>
+  <script src="https://formspree.io/js/formbutton-v1.min.js" defer></script>
+  <script>
+    window.formbutton=window.formbutton||function(){(formbutton.q=formbutton.q||[]).push(arguments)};
+    formbutton("create", {action: "https://formspree.io/f/xdopzpda"})
+  </script>
+    </body>
+    </html>
