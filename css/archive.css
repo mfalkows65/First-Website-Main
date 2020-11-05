@@ -64,5 +64,17 @@ html,body {
   }
 
   .container {
-      
+    position: relative;
+    text-align: center;
+    top: 55px;
+    margin-bottom: 20px;
+    color: #550c18;
+  }
+
+  h1 {
+    font-size: 65px;
+  }
+
+  h3 {
+    font-size: 45px;
   }
